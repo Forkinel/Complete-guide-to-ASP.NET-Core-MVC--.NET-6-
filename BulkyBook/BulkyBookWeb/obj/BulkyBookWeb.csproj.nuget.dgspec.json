@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIT\\UDEMY\\Complete guide to ASP.NET Core MVC (.NET 6)\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {}
+    "D:\\GIT\\UDEMY\\Complete-guide-to-ASP.NET-Core-MVC--.NET-6-\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {}
   },
   "projects": {
-    "D:\\GIT\\UDEMY\\Complete guide to ASP.NET Core MVC (.NET 6)\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {
+    "D:\\GIT\\UDEMY\\Complete-guide-to-ASP.NET-Core-MVC--.NET-6-\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT\\UDEMY\\Complete guide to ASP.NET Core MVC (.NET 6)\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "projectUniqueName": "D:\\GIT\\UDEMY\\Complete-guide-to-ASP.NET-Core-MVC--.NET-6-\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
         "projectName": "BulkyBookWeb",
-        "projectPath": "D:\\GIT\\UDEMY\\Complete guide to ASP.NET Core MVC (.NET 6)\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "projectPath": "D:\\GIT\\UDEMY\\Complete-guide-to-ASP.NET-Core-MVC--.NET-6-\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
         "packagesPath": "C:\\Users\\Bob\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT\\UDEMY\\Complete guide to ASP.NET Core MVC (.NET 6)\\BulkyBook\\BulkyBookWeb\\obj\\",
+        "outputPath": "D:\\GIT\\UDEMY\\Complete-guide-to-ASP.NET-Core-MVC--.NET-6-\\BulkyBook\\BulkyBookWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
